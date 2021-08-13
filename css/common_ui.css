@@ -1,0 +1,151 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+@font-face {
+    --appleL:'AppleSDGothicNeoL00';
+    font-family: 'AppleSDGothicNeoL00';
+    src: url('../font/AppleSDGothicNeoL00.woff2') format('woff2'),
+        url('../font/AppleSDGothicNeoL00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    --appleR:'AppleSDGothicNeoR00';
+    font-family: 'AppleSDGothicNeoR00';
+    src: url('../font/AppleSDGothicNeoR00.woff2') format('woff2'),
+        url('../font/AppleSDGothicNeoR00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    --appleEB:'AppleSDGothicNeoEB00';
+    font-family: 'AppleSDGothicNeoEB00';
+    src: url('../font/AppleSDGothicNeoEB00.woff2') format('woff2'),
+        url('../font/AppleSDGothicNeoEB00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    --appleSB:'AppleSDGothicNeoSB00';
+    font-family: 'AppleSDGothicNeoSB00';
+    src: url('../font/AppleSDGothicNeoSB00.woff2') format('woff2'),
+        url('../font/AppleSDGothicNeoSB00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    --appleB:'AppleSDGothicNeoB00';
+    font-family: 'AppleSDGothicNeoB00';
+    src: url('../font/AppleSDGothicNeoB00.woff2') format('woff2'),
+        url('../font/AppleSDGothicNeoB00.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ---------------------TYPO----------------------- */
+
+:root{    
+    --mont:'Montserrat', sans-serif;
+    --appleB:'AppleSDGothicNeoB00';
+    --appleSB:'AppleSDGothicNeoSB00';
+    --appleEB:'AppleSDGothicNeoEB00';
+    --appleR:'AppleSDGothicNeoR00';
+    --appleL:'AppleSDGothicNeoL00';
+      
+}
+body {
+    font-size: 16px;
+    color: var(--colorblack);
+    font-family: 'AppleSDGothicNeoL00';
+}
+
+/* --------------------COLORS---------------------- */
+:root{
+    --mainColor: #55b954;
+    --mainDark: #1fff73;
+    --subColor: #7066a8;
+    --subDark: #ed29ff;
+    --colorblack: #494949;
+    --lightblack: #e2e2e2;
+}
+
+/* -------------------BUTTONS---------------------- */
+
+/* -------------------LAYOUT----------------------- */
+body{
+    overflow-x: hidden;
+}
+
+.container {
+    width: 1234px;
+    margin: 0 auto;
+}
+.sprite {
+    background: url(../img/cellt_sprite_day.png) no-repeat;
+    display: inline-block;
+    text-indent: -9999em;
+    overflow: hidden;
+}
+section {
+    margin-left: 102px;
+}
+
+/* -------------------Header----------------------- */
+
+/* -------------------SideMenu----------------------- */
+
+/* -------------------SideMenu----------------------- */
+
+/* -------------------FOOTER---------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************DARK MODE*****************/
+
+/* ---------------------TYPO----------------------- */
+
+/* --------------------COLORS---------------------- */
+
+/* -------------------BUTTONS---------------------- */
+
+/* -------------------LAYOUT----------------------- */
