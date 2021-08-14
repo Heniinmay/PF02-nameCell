@@ -83,7 +83,35 @@ body {
     text-transform: uppercase;
     letter-spacing: -0.01em;
 }
+.subpage_tt{
+    color: white;
+    font-family: var(--mont);
+    font-size: 72px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
 
+    position: absolute;
+    bottom: -0.25em;
+    left: 2.5em;
+    text-shadow: 1px 1px 5px rgba(132, 132, 132, .6);
+}
+.sub_small_tt{
+    margin: 0 0;
+    text-align: left;
+    margin-bottom: 48px;
+}
+.section_tt{
+    font-family: 'AppleSDGothicNeoSB00';
+    font-size: 32px;
+    color: var(--colorblack);
+    letter-spacing: -0.01em;
+    width: 350px;
+    margin-bottom: 24px;
+}
+h2.hidden{
+    display: block;
+}
 /* --------------------COLORS---------------------- */
 :root{
     --mainColor: #55b954;
@@ -95,7 +123,36 @@ body {
 }
 
 /* -------------------BUTTONS---------------------- */
-
+.btn {
+    display: inline-block;
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+    border: 2px solid #fff;
+    border-radius: 2em;
+    background: none;
+    color: white;
+    font-family: var(--mont);
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.btn_day{
+    display: block;
+    width: 180px;
+    height: 42px;
+    border: 2px solid var(--mainColor);
+    border-radius: 2em;
+    background: none;
+    color: var(--mainColor);
+    font-family: var(--mont);
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 42px;
+    text-align: center;
+    margin: 24px 0;
+}
 /* -------------------LAYOUT----------------------- */
 body{
     overflow-x: hidden;
@@ -116,6 +173,39 @@ section {
 }
 .subtt_rel{
     position: relative;
+}
+.side_tt{
+    font-family: var(--appleL);
+    font-size: 24px;
+    letter-spacing: -0.01em;
+    color: #fff;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    font-weight: 700;
+    position: absolute;
+    top: 80px;
+    left: -7%;
+}
+.side_tt.color_cg{
+    color: #dfdfdf;
+    top: 70px;
+    left: 4%;
+}
+.sub_content .sub_small_tt{
+    margin-left: 124px;
+    margin-bottom: 72px;
+    text-transform: uppercase;
+}
+.sub_content .sub_small_tt h3{
+    font-size: 20px;
+    font-family: var(--mont);
+    line-height: 27px;
+}
+.df{
+    display: flex;
+}
+.jcsb{
+    justify-content: space-between;
 }
 
 /* -------------------Header----------------------- */
@@ -280,6 +370,7 @@ nav ul li a:hover {
 .aside_gnb ul.li_2dep li a.link:hover{
     font-family: var(--appleB);
 }
+
 /* -------------------FOOTER---------------------- */
 
 
