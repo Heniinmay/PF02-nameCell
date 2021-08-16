@@ -120,3 +120,129 @@ h2 {
 .swiper-scrollbar .swiper-scrollbar-drag {
     background: #34f099;
 }
+
+/* ---------------------vision---------------------- */
+
+#cell_vision {
+    margin-top: 240px;
+}
+
+#cell_vision > h2 {
+    font-family: var(--appleB);
+    font-size: 40px;
+    line-height: 72px;
+    color: var(--colorblack);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#cell_vision .vision {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+#cell_vision .vision>.sprite {
+    width: 188px;
+    height: 190px;
+    text-align: center;
+    text-indent: 0;
+}
+
+#cell_vision .vision .circle1 {
+    line-height: 190px;
+    transform: translateX(33px);
+    background-position: 0 -47px;
+}
+
+#cell_vision .vision .circle2 {
+    background-position: -191px -47px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cell_vision .vision .circle2 p {
+    width: 70px;
+    margin: 0 auto;
+}
+
+#cell_vision .vision .circle2 span {
+    font-weight: 800;
+}
+
+#cell_vision .vision .circle3 {
+    line-height: 190px;
+    transform: translateX(-33px);
+    background-position: -384px -47px;
+}
+
+#cell_vision .vision_content {
+    margin-top: 96px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 124px;
+}
+
+.vision_content .vi_left {
+    flex-direction: column;
+    width: 610px;
+    position: relative;
+}
+
+.vision_content .vi_left .vi_img1 {
+    width: 587px;
+    height: 311px;
+}
+
+.vision_content .vi_left .vi_img2 {
+    width: 360px;
+    height: 200px;
+    position: relative;
+    z-index: 2;
+    margin-top: -52px;
+    margin-left: 265px;
+}
+
+.vision_content .vi_left .vi_img3 {
+    width: 384px;
+    height: 485px;
+    margin-top: 100px;
+    margin-left: -10px;
+}
+
+.vision_content .vi_left .vi_img4 {
+    width: 486px;
+    height: 344px;
+    margin-top: 108px;
+    margin-left: 80px;
+}
+
+.vision_content .vi_left .vi_img5 {
+    width: 364px;
+    height: 495px;
+    margin-top: -70px;
+    margin-left: -80px;
+}
+
+.vision_content .vi_right {
+    width: 500px;
+}
+
+#cell_vision.fixed .vi_right.fixed {
+    position: fixed;
+    top: 110px;
+    left: 50%;
+    transform: translateX(23.4%);
+    padding-top: 0;
+}
+
+#cell_vision .vi_right .logo_small {
+    width: 48px;
+    height: 48px;
+}
+
+.vision_content .vi_right .desc-tt {
+    font-size: 16px;
+    line-height: 24px;
+}

@@ -1,3 +1,4 @@
+AOS.init();
 const sidemenu = document.querySelector('.sidemenu');
 const menuAll = sidemenu.querySelector('.menu_all');
 const gnbWrap = document.querySelector('.gnb-wrap');
