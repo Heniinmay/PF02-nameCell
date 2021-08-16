@@ -62,6 +62,27 @@ body {
     color: var(--colorblack);
     font-family: 'AppleSDGothicNeoL00';
 }
+.main_tt {
+    font-family: var(--mont);
+    font-weight: 600;
+    color: #fff;
+    font-size: 70px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.content_des{
+    text-transform: uppercase;
+    text-align: center;
+}
+.sub_tt{
+    color: var(--mainColor);
+    font-size: 25px;
+    font-family: 'AppleSDGothicNeoB00';
+    line-height: 24px;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+}
 
 /* --------------------COLORS---------------------- */
 :root{
@@ -93,13 +114,172 @@ body{
 section {
     margin-left: 102px;
 }
+.subtt_rel{
+    position: relative;
+}
 
 /* -------------------Header----------------------- */
-
+header {
+    margin: 0 auto;
+    margin-left: 204px;
+}
+nav {
+    position: fixed;
+    z-index: 99;
+    padding-left: 102px;
+}
+.nav_wrap ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    transform: translateY(40px);
+}
+nav ul li a {
+    font-family: var(--mont);
+    color: var(--colorblack);
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: color .2s;
+}
+nav ul li a:hover {
+    color: var(--mainDark);
+}
 /* -------------------SideMenu----------------------- */
+.sidemenu_wrap .sidemenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 102px;
+    height: 100vh;
+    z-index: 999;
+    box-shadow: 10px 0px 30px rgb(121 121 121 / 15%);
+    background-color: #fff;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.sidemenu_wrap .sidemenu.active{
+    box-shadow: none;
+}
+.sidemenu_wrap .sidemenu.active .gnb-wrap{
+    box-shadow: 10px 0px 30px rgb(121 121 121 / 15%);
+}
+.sidemenu .sidelogo {
+    width: 48px;
+    height: 47px;
+    display: inline-flex;
+    margin-top: 47px;
+    text-indent: -9999em;
+    background-position: 0 0;
+    left: 50%;
+    transform: translateX(50%);
+}
+.sidemenu .menu_all {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 48px;
+    height: 48px;
+    transform: translate(-50%, -50%);
+}
+.sidemenu a.menu_all span {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 25px;
+    height: 3px;
+    background: var(--colorblack);
+    transition-duration: .4s;
+}
+.sidemenu a.menu_all span:nth-child(1) {
+    top: 15px;
+}
+.sidemenu a.menu_all span:nth-child(2) {
+    top: 23px;
+}
+.sidemenu a.menu_all span:nth-child(3) {
+    top: 31px;
+}
+.sidemenu a.menu_all.active span:nth-child(1) {
+    top: 23px;
+    left: 12px;
+    width: 23px;
+    transform: rotate(45deg);
+}
+.sidemenu a.menu_all.active span:nth-child(2) {
+    opacity: 0;
+    transform: translateX(-30px);
+}
+.sidemenu a.menu_all.active span:nth-child(3) {
+    top: 23px;
+    left: 12px;
+    width: 23px;
+    transform: rotate(-45deg);
+}
 
-/* -------------------SideMenu----------------------- */
-
+/*              GNB                */
+.gnb-wrap{
+    position: fixed;
+    left: 0;right: 0;top: 0;bottom: 0;
+    z-index: 998;
+    width: 500px;
+    height: 100%;
+    background: #fff;
+    box-sizing: border-box;
+    transform: translateX(-80%);
+    transition-duration: .5s;
+}
+.gnb-wrap.active{
+    opacity: 1;
+    transform: translateX(0);
+}
+.gnb-wrap .aside_gnb{
+    overflow: hidden;
+    overflow-y: auto;
+    position: relative;
+    width: 390px;
+    height: 100%;
+    padding-top: 30px;
+    text-align: left;
+    box-sizing: border-box;
+}
+.gnb-wrap.active .aside_gnb{
+    left: 102px;
+}
+.aside_gnb ul .li_1dep{
+    margin: 50px 0 20px 0;
+}
+.aside_gnb ul li a.aside_tt{
+    font-family: var(--mont);
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+}
+.aside_gnb ul li .aside_tt span{
+    color: var(--mainColor);
+}
+.aside_gnb ul.li_2dep{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px 25px;
+    width: 400px;
+    margin-top: 1em;
+}
+.aside_gnb ul.li_2dep li a{
+    color: #bbbbbb;
+    font-size: 16px;
+    font-family: var(--appleR);
+}
+.aside_gnb ul.li_2dep li a.link{
+    color: #646464;
+}
+.aside_gnb ul.li_2dep li a.link:hover{
+    font-family: var(--appleB);
+}
 /* -------------------FOOTER---------------------- */
 
 
