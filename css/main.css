@@ -246,3 +246,80 @@ h2 {
     font-size: 16px;
     line-height: 24px;
 }
+
+/* -------------Cell_calculating-------------- */
+
+#cell_calc {
+    margin: 240px 0;
+}
+
+#cell_calc.calcbg {
+    background: url(../img/main_numbg.png);
+    height: 20em;
+}
+
+#cell_calc {
+    display: flex;
+    align-items: center;
+}
+
+#cell_calc ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#cell_calc ul li {
+    text-align: center;
+}
+
+#cell_calc ul .calc_tt {
+    font-size: 16px;
+    font-family: var(--appleB);
+    letter-spacing: -0.01em;
+    color: var(--mainColor);
+    line-height: 48px;
+    text-align: center;
+}
+
+#cell_calc ul .num1 {
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+    background-position: 0px -246px;
+}
+
+#cell_calc ul .num2 {
+    display: inline-block;
+    width: 86px;
+    height: 86px;
+    background-position: -101px -246px;
+}
+
+#cell_calc ul .num3 {
+    display: inline-block;
+    width: 89px;
+    height: 90px;
+    background-position: -192px -246px;
+}
+
+#cell_calc ul .num4 {
+    display: inline-block;
+    width: 59px;
+    height: 100px;
+    background-position: -295px -246px;
+}
+
+#cell_calc ul li .number-tt {
+    font-family: var(--mont);
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    letter-spacing: -0.01em;
+}
+
+#cell_calc ul li .number-tt span {
+    font-size: 36px;
+}
