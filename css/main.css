@@ -323,3 +323,130 @@ h2 {
 #cell_calc ul li .number-tt span {
     font-size: 36px;
 }
+
+/* --------------Cell_whatwedo--------------- */
+
+#cell_whatwedo {
+    display: flex;
+    justify-content: center;
+    gap: 224px
+}
+
+.wedo_left>.sub_tt {
+    color: var(--subColor);
+    font-weight: 600;
+}
+
+.wedo_left>.section_tt {
+    color: #8a00e2;
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+}
+
+.wedo_left .desc_tt {
+    width: 435px;
+    font-size: 16px;
+    text-align: right;
+    line-height: 24px;
+    transform: translateY(-60px);
+}
+
+.wedo_left .wedo_img {
+    width: 434px;
+    height: 596.5px;
+}
+
+.wedo_left .sub_tt, .wedo_left .section_tt {
+    transform: translateX(-120px);
+    z-index: 10;
+}
+
+.wedo_left .wedo_img {
+    transform: translateY(-80px);
+}
+
+.wedo_right {
+    margin-top: 144px;
+}
+
+.wedo_right ul {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.wedo_right li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.wedo_right li .round {
+    width: 220px;
+    height: 220px;
+    background-color: var(--lightblack);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wedo_right li .round:hover:after {
+    content: '';
+    position: absolute;
+    right: 5px;
+    top: 15px;
+    background-image: url(../img/cellt_sprite_day.png);
+    width: 46px;
+    height: 46px;
+    background-position: -242px 0;
+}
+
+.wedo_right .wedo1 {
+    display: inline-block;
+    width: 132px;
+    height: 129px;
+    margin: 0 auto;
+    background-position: 0 -347px;
+}
+
+.wedo_right .round:hover .wedo1 {
+    background-position: 0 -476px;
+}
+
+.wedo_right .wedo2 {
+    width: 129px;
+    height: 129px;
+    margin: 0 auto;
+    background-position: -172px -347px;
+}
+
+.wedo_right .round:hover .wedo2 {
+    background-position: -172px -476px;
+}
+
+.wedo_right .wedo3 {
+    width: 120px;
+    height: 128px;
+    margin: 0 auto;
+    background-position: -341px -347px;
+}
+
+.wedo_right .round:hover .wedo3 {
+    background-position: -341px -476px;
+}
+
+.wedo_right ul li {
+    display: flex;
+    flex-direction: column;
+}
+
+.wedo_right ul li .wedo p {
+    font-family: var(--appleR);
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+    font-weight: bolder;
+}
