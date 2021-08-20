@@ -1,0 +1,36 @@
+
+header nav ul li a {
+    color: #8f8f8f;
+} /* about 페이지에만 있는 헤더 */
+
+#about_subTitle{
+    margin: 190px auto;
+    padding-left: 102px;
+
+}
+
+#about_subTitle .simbol{
+    width: 48px;height: 50px;
+    display: inline-block;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#about_subTitle .subTitles{
+    display: flex;
+    justify-content: center;
+    margin: 48px auto;
+}
+
+#about_subTitle .subTitles h3{
+    width: 470px;
+    font-family: var(--appleB);
+    font-size: 28px;
+    font-weight: 900;
+}
+
+#about_subTitle .subTitles p{
+    margin-top: 4em;
+    width: 470px;
+}
