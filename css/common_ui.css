@@ -389,13 +389,46 @@ nav ul li a:hover {
 }
 
 /* -------------------FOOTER---------------------- */
+footer {
+  margin-top: 450px;
+}
+
+#footer_info {
+  background-color: #f0f0f0;
+  padding: 60px 0;
+}
+.content_align {
+  display: flex;
+  gap: 240px;
+}
+
+#footer_info .info_logo a {
+  display: block;
+  width: 343px;
+  height: 88px;
+  background-position-y: -607px;
+  text-indent: -999em;
+}
+#footer_info .info_logo p {
+  width: 343px;
+  text-align: right;
+  font-family: var(--appleL);
+  font-size: 16px;
+  margin-top: 24px;
+  line-height: 24px;
+}
+
+#footer_info .info_content {
+  display: flex;
+  gap: 72px;
+  line-height: 24px;
+  font-family: var(--appleR);
+}
+
+#footer_info .info_content ul li:hover {
+  font-weight: 800;
+}
 
 /******************DARK MODE*****************/
-
-/* ---------------------TYPO----------------------- */
-
-/* --------------------COLORS---------------------- */
-
-/* -------------------BUTTONS---------------------- */
 
 /* -------------------LAYOUT----------------------- */
