@@ -34,3 +34,53 @@ header nav ul li a {
     margin-top: 4em;
     width: 470px;
 }
+
+#about_topPage{
+    height: 100vh;
+    width: 100%;
+    background: url(../img/about_main.jpg) no-repeat;
+    overflow: hidden;
+    text-align: center;
+}
+#about_topPage .topPage_contents{
+    content: '';
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,.7);
+    position: absolute;
+    top: 0;left: 0;
+}
+
+#about_topPage .topPage_contents .about_tt{
+    position: absolute;
+    left: 50%; 
+    top: 45%;
+    transform: translate(-50%,-50%);
+
+    color: #fff;
+    font-size: 42px;
+    font-family: var(--appleSB);
+    width: 600px;
+    animation: flowUp 2s;
+}
+
+#about_topPage .topPage_contents .about_tt:before{
+    content: '';
+    background-image: url(../img/cellt_sprite_day.png);
+    width: 34px;height: 34px;
+    display: block;
+    background-position: -68px 0;
+    transform: translateX(-15px);
+    filter: blur(10px);
+}
+
+@keyframes flowUp{
+    from{
+        transform: translate(calc(-50% -15px),calc(-50% -15px));
+        opacity: 0;
+    }
+    to{
+        transform: translate(calc(-50% -15px),calc(-50%));
+        opacity: 1;
+    }
+}
