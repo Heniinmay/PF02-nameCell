@@ -84,3 +84,84 @@ header nav ul li a {
         opacity: 1;
     }
 }
+
+/* ---------------------coreValue4---------------------- */
+
+#core4{
+    margin: 350px 0 300px 0;
+    background: url(../img/core4_bg.png);
+    height: 475px;
+}
+
+.corevalue_wrap{
+    position: relative;  
+}
+.corevalue_wrap .side_tt{
+    left: 10px;
+    top: 140px;
+}
+
+.cores_wrap{
+    display: flex;
+    gap: 70px;
+    padding: 98px;
+}
+.cores_wrap li{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cores_wrap li .core_border{
+    width: 230px; height: 230px;
+    background: rgba(255, 255, 255, .3);
+    border: 3px solid #414141;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cores_wrap li .core_border .core_img{
+    display: inline-block;
+    text-align: center;
+    text-indent: -9999em;  
+}
+
+.cores_wrap li:first-child .core_border .core_img{
+    width: 107px;
+    height: 129px;
+    background-position: 0 -702px;
+}
+.cores_wrap li:nth-child(2) .core_border .core_img{
+    width: 107px;
+    height: 107px;
+    background-position: -121px -702px;
+}
+
+.cores_wrap li:nth-child(3) .core_border .core_img{
+    width: 112px;
+    height: 86px;
+    background-position: -245px -702px;
+}
+
+.cores_wrap li:last-child .core_border .core_img{
+    width: 119px;
+    height: 85px;
+    background-position: -372px -702px;
+}
+
+.cores_wrap li .core_tt{
+    font-family: var(--appleEB);
+    font-size: 30px;
+    color: var(--lightblack);
+    font-weight: 800;
+    text-align: center;
+    transform: translateY(-18px);
+}
+
+.cores_wrap li .core_desc{
+    font-family: var(--appleSB);
+    font-weight: 800;
+    color: var(--lightblack);
+    width: 200px;
+    text-align: center;
+}
