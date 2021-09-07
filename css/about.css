@@ -1,167 +1,169 @@
-
 header nav ul li a {
-    color: #8f8f8f;
+  color: #8f8f8f;
 } /* about 페이지에만 있는 헤더 */
 
-#about_subTitle{
-    margin: 190px auto;
-    padding-left: 102px;
-
+#about_subTitle {
+  margin: 190px auto;
+  padding-left: 102px;
 }
 
-#about_subTitle .simbol{
-    width: 48px;height: 50px;
-    display: inline-block;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
+#about_subTitle .simbol {
+  width: 48px;
+  height: 50px;
+  display: inline-block;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
-#about_subTitle .subTitles{
-    display: flex;
-    justify-content: center;
-    margin: 48px auto;
+#about_subTitle .subTitles {
+  display: flex;
+  justify-content: center;
+  margin: 48px auto;
 }
 
-#about_subTitle .subTitles h3{
-    width: 470px;
-    font-family: var(--appleB);
-    font-size: 28px;
-    font-weight: 900;
+#about_subTitle .subTitles h3 {
+  width: 470px;
+  font-family: var(--appleB);
+  font-size: 28px;
+  font-weight: 900;
 }
 
-#about_subTitle .subTitles p{
-    margin-top: 4em;
-    width: 470px;
+#about_subTitle .subTitles p {
+  margin-top: 4em;
+  width: 470px;
 }
 
-#about_topPage{
-    height: 100vh;
-    width: 100%;
-    background: url(../img/about_main.jpg) no-repeat;
-    overflow: hidden;
-    text-align: center;
+#about_topPage {
+  height: 100vh;
+  width: 100%;
+  background: url(../img/about_main.jpg) no-repeat;
+  overflow: hidden;
+  text-align: center;
 }
-#about_topPage .topPage_contents{
-    content: '';
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0,0,0,.7);
-    position: absolute;
-    top: 0;left: 0;
-}
-
-#about_topPage .topPage_contents .about_tt{
-    position: absolute;
-    left: 50%; 
-    top: 45%;
-    transform: translate(-50%,-50%);
-
-    color: #fff;
-    font-size: 42px;
-    font-family: var(--appleSB);
-    width: 600px;
-    animation: flowUp 2s;
+#about_topPage .topPage_contents {
+  content: "";
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-#about_topPage .topPage_contents .about_tt:before{
-    content: '';
-    background-image: url(../img/cellt_sprite_day.png);
-    width: 34px;height: 34px;
-    display: block;
-    background-position: -68px 0;
-    transform: translateX(-15px);
-    filter: blur(10px);
+#about_topPage .topPage_contents .about_tt {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+
+  color: #fff;
+  font-size: 42px;
+  font-family: var(--appleSB);
+  width: 600px;
+  animation: flowUp 2s;
 }
 
-@keyframes flowUp{
-    from{
-        transform: translate(calc(-50% -15px),calc(-50% -15px));
-        opacity: 0;
-    }
-    to{
-        transform: translate(calc(-50% -15px),calc(-50%));
-        opacity: 1;
-    }
+#about_topPage .topPage_contents .about_tt:before {
+  content: "";
+  background-image: url(../img/cellt_sprite_day.png);
+  width: 34px;
+  height: 34px;
+  display: block;
+  background-position: -68px 0;
+  transform: translateX(-15px);
+  filter: blur(10px);
+}
+
+@keyframes flowUp {
+  from {
+    transform: translate(calc(-50% -15px), calc(-50% -15px));
+    opacity: 0;
+  }
+  to {
+    transform: translate(calc(-50% -15px), calc(-50%));
+    opacity: 1;
+  }
 }
 
 /* ---------------------coreValue4---------------------- */
 
-#core4{
-    margin: 350px 0 300px 0;
-    background: url(../img/core4_bg.png);
-    height: 475px;
+#core4 {
+  margin: 350px 0 300px 0;
+  background: url(../img/core4_bg.jpg);
+  height: 475px;
 }
 
-.corevalue_wrap{
-    position: relative;  
+.corevalue_wrap {
+  position: relative;
 }
-.corevalue_wrap .side_tt{
-    left: 10px;
-    top: 140px;
-}
-
-.cores_wrap{
-    display: flex;
-    gap: 70px;
-    padding: 98px;
-}
-.cores_wrap li{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.cores_wrap li .core_border{
-    width: 230px; height: 230px;
-    background: rgba(255, 255, 255, .3);
-    border: 3px solid #414141;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.corevalue_wrap .side_tt {
+  left: 10px;
+  top: 140px;
 }
 
-.cores_wrap li .core_border .core_img{
-    display: inline-block;
-    text-align: center;
-    text-indent: -9999em;  
+.cores_wrap {
+  display: flex;
+  gap: 70px;
+  padding: 98px;
+}
+.cores_wrap li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.cores_wrap li .core_border {
+  width: 230px;
+  height: 230px;
+  background: rgba(255, 255, 255, 0.3);
+  border: 3px solid #414141;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.cores_wrap li:first-child .core_border .core_img{
-    width: 107px;
-    height: 129px;
-    background-position: 0 -702px;
-}
-.cores_wrap li:nth-child(2) .core_border .core_img{
-    width: 107px;
-    height: 107px;
-    background-position: -121px -702px;
+.cores_wrap li .core_border .core_img {
+  display: inline-block;
+  text-align: center;
+  text-indent: -9999em;
 }
 
-.cores_wrap li:nth-child(3) .core_border .core_img{
-    width: 112px;
-    height: 86px;
-    background-position: -245px -702px;
+.cores_wrap li:first-child .core_border .core_img {
+  width: 107px;
+  height: 129px;
+  background-position: 0 -702px;
+}
+.cores_wrap li:nth-child(2) .core_border .core_img {
+  width: 107px;
+  height: 107px;
+  background-position: -121px -702px;
 }
 
-.cores_wrap li:last-child .core_border .core_img{
-    width: 119px;
-    height: 85px;
-    background-position: -372px -702px;
+.cores_wrap li:nth-child(3) .core_border .core_img {
+  width: 112px;
+  height: 86px;
+  background-position: -245px -702px;
 }
 
-.cores_wrap li .core_tt{
-    font-family: var(--appleEB);
-    font-size: 30px;
-    color: var(--lightblack);
-    font-weight: 800;
-    text-align: center;
-    transform: translateY(-18px);
+.cores_wrap li:last-child .core_border .core_img {
+  width: 119px;
+  height: 85px;
+  background-position: -372px -702px;
 }
 
-.cores_wrap li .core_desc{
-    font-family: var(--appleSB);
-    font-weight: 800;
-    color: var(--lightblack);
-    width: 200px;
-    text-align: center;
+.cores_wrap li .core_tt {
+  font-family: var(--appleEB);
+  font-size: 30px;
+  color: var(--lightblack);
+  font-weight: 800;
+  text-align: center;
+  transform: translateY(-18px);
+}
+
+.cores_wrap li .core_desc {
+  font-family: var(--appleSB);
+  font-weight: 800;
+  color: var(--lightblack);
+  width: 200px;
+  text-align: center;
 }
