@@ -1,0 +1,24 @@
+.sub_main_wrap {
+  background-position-y: -10px;
+}
+
+.sub_nav_wrap {
+  margin-top: 24px;
+}
+.page-nav {
+  font-family: var(--mont);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.page-nav * {
+  margin-left: 10px;
+}
+.page-nav .active {
+  color: var(--mainColor);
+  font-weight: 500;
+}
+.material-icons-outlined {
+  font-size: 24px;
+  transform: translateY(6px);
+}
