@@ -1,0 +1,120 @@
+@import url(common_ui.css);
+
+#content_area {
+  margin-left: 102px;
+}
+
+/*------                section top               ------*/
+section#content_area {
+  margin-left: 0px;
+}
+
+.tt_area {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.tt_area h2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  font-family: var(--appleB);
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #111;
+  text-align: center;
+}
+
+.hr_ro {
+  width: 280px;
+  height: 2px;
+  border: none;
+  background: #000;
+  transform: rotate(90deg) translateX(-100px);
+}
+
+/*------                section               ------*/
+
+#h_section_wrap {
+  position: relative;
+  margin-bottom: 30vh;
+  margin-left: 0;
+  padding: 72px 0;
+}
+
+.h_section {
+  min-width: 1234px;
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.h_section .history {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.history {
+  padding-left: 204px;
+}
+.h_sec_tt {
+  letter-spacing: -0.8px;
+  text-align: center;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.h_sec_tt .tt_kr {
+  font-size: 24px;
+  letter-spacing: -0.01em;
+  font-family: var(--appleR);
+  color: #111;
+  text-shadow: none;
+  transition: none;
+}
+.h_sec_tt span {
+  text-transform: uppercase;
+  font-size: 64px;
+  font-weight: 700;
+  color: #111;
+}
+.h_sec_tt .top,
+.h_sec_tt .bottom {
+  min-width: 800px;
+}
+
+/* .h_sec_tt .top {
+  transform: translate(500px, 50%);
+}
+
+.h_sec_tt .bottom {
+  transform: translate(-1500px, 50%);
+} */
+
+.year_wrap {
+  width: 50%;
+}
+.history > .year_wrap {
+  font-family: var(--mont), "Noto Sans KR", sans-serif;
+  font-size: 9vw;
+  font-weight: bold;
+  line-height: 1;
+  position: relative;
+}
+.year_wrap .change_year {
+  -webkit-text-stroke: 2px rgb(160, 160, 160);
+  color: transparent;
+}
+.year_wrap.fixed .change_year {
+  display: block;
+  width: 50%;
+  padding-bottom: 2em;
+}
