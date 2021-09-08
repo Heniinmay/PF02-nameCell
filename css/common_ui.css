@@ -387,7 +387,53 @@ nav ul li a:hover {
 .aside_gnb ul.li_2dep li a.link {
   color: #646464;
 }
+/* --------------- SubPage_common ----------------- */
 
+.sub_main_bn {
+  width: 100%;
+  height: 255px;
+  background-position-y: -20px;
+}
+.sub_main_bn > .sub_main_wrap {
+  font-family: var(--mont);
+  position: relative;
+  height: 255px;
+  width: 100%;
+  z-index: -0.5;
+  font-weight: 900;
+}
+
+.sub_content.container .css-sub-nav {
+  position: fixed;
+  z-index: 100;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  transition: 0.3s;
+}
+.css-sub-nav {
+  opacity: 0;
+}
+.css-sub-nav li a {
+  position: relative;
+  color: #8d8d8d;
+  line-height: 20px;
+  cursor: pointer;
+}
+.css-sub-nav ul li.active a {
+  color: #252525;
+}
+.css-sub-nav ul li.active a:after {
+  content: "";
+  position: absolute;
+  background: url(../img/cellt_sprite_day.png) no-repeat;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background-position: -292px 0;
+  margin-left: 5px;
+  bottom: 2px;
+}
 /* -------------------FOOTER---------------------- */
 footer {
   margin-top: 450px;
@@ -429,40 +475,40 @@ footer {
   font-weight: 800;
 }
 
-#footer_msg{
-    display: flex;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.7);
+#footer_msg {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .parallax-window {
-    min-height: 400px;
-    background: transparent;
+  min-height: 400px;
+  background: transparent;
 }
 
-.msg_wrap .content_wrap{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
+.msg_wrap .content_wrap {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
 }
-.msg_wrap .msg_tt{
-    width: 530px;
-    font-family: var(--mont);
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 40px;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
-    text-align: center;
-    color: var(--lightblack);
+.msg_wrap .msg_tt {
+  width: 530px;
+  font-family: var(--mont);
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--lightblack);
 }
 
-.msg_wrap .logo_small{
-    width: 49px;
-    height: 47px;
-    background-position: -184px 0;
+.msg_wrap .logo_small {
+  width: 49px;
+  height: 47px;
+  background-position: -184px 0;
 }
 
 /******************DARK MODE*****************/
