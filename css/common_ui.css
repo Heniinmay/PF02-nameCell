@@ -387,6 +387,23 @@ nav ul li a:hover {
 .aside_gnb ul.li_2dep li a.link {
   color: #646464;
 }
+
+.aside_gnb ul.li_2dep li a.link:hover {
+  font-family: var(--appleB);
+}
+.aside_gnb ul.w30 li {
+  width: 30%;
+}
+.aside_gnb ul.w25 li {
+  width: 22%;
+}
+.aside_gnb ul.w25 li.w45 {
+  width: 45%;
+}
+
+.aside_gnb ul.w20 li {
+  width: 22%;
+}
 /* --------------- SubPage_common ----------------- */
 
 .sub_main_bn {
